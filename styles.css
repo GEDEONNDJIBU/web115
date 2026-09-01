@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #1F3A5F;
+}
+
+/* Header */
+header {
+    background-color: #1F3A5F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #1F3A5F;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* When mouse is over a link */
+nav a:hover {
+    background-color: #F28C28;
+    color: white;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #F28C28;
+}
+
+/* Footer */
+footer {
+    background-color: #1F3A5F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer links */
+footer a {
+    color: #F28C28;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+footer a{
+    margin: 0 15px;
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+}
+.profile-picture {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
