@@ -95,3 +95,69 @@ footer {
     margin: 20px auto;
     border-radius: 10px;
 }
+/* FizzBuzz Page */
+
+#greeting {
+    text-align: center;
+    color: #1F3A5F;
+    margin-bottom: 25px;
+}
+
+#name-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+#name-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #1F3A5F;
+}
+
+#name-form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #1F3A5F;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#name-form input:focus {
+    outline: 2px solid #F28C28;
+}
+
+#name-form button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1F3A5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#name-form button:hover {
+    background-color: #F28C28;
+}
+
+#output {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+#output p {
+    margin: 5px 0;
+}
+
