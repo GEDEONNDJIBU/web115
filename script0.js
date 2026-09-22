@@ -5,46 +5,34 @@ const output = document.getElementById("fizzbuzz-output");
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
+    // Get the user's name
     const firstName = document.getElementById("first-name").value;
     const middleName = document.getElementById("middle-name").value;
     const lastName = document.getElementById("last-name").value;
 
+    // Create the full name
     let fullName = firstName;
 
+    // Only add middle initial if the user entered one
     if (middleName !== "") {
-        fullName += " " + middleName;
+        fullName += " " + middleName + ".";
     }
 
+    // Add last name
     fullName += " " + lastName;
 
-    greeting.textContent = "Welcome to Mangoose Restaurant, " + fullName + "!";
+    // Display personalized greeting
+    greeting.textContent =
+        "Welcome to Mangoose Restaurant, " + fullName + "!";
 
-    // Easy-to-change FizzBuzz settings
-    const firstNumber = 3;
-    const secondNumber = 5;
-
-    const normalWord = "Let's Go!";
-    const firstWord = "Fizz!";
-    const secondWord = "Buzz!";
-
-    const maximum = 125;
-
+    // Clear previous output
     output.innerHTML = "";
 
+    // Create 125 lines
     for (let i = 1; i <= 125; i++) {
-
-        let message = normalWord;
-
-        if (i % firstNumber === 0 && i % secondNumber === 0) {
-            message = firstWord + " " + secondWord;
-        } else if (i % firstNumber === 0) {
-            message = firstWord;
-        } else if (i % secondNumber === 0) {
-            message = secondWord;
-        }
-
         const paragraph = document.createElement("p");
-        paragraph.textContent = i + ". " + Mangoose Spirit;
+
+        paragraph.textContent = i + ") Mangoose Kitchen";
 
         output.appendChild(paragraph);
     }
