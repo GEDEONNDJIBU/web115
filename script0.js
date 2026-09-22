@@ -5,15 +5,15 @@ const output = document.getElementById("fizzbuzz-output");
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    // Get the user's name
+    // Get user's name
     const firstName = document.getElementById("first-name").value;
     const middleName = document.getElementById("middle-name").value;
     const lastName = document.getElementById("last-name").value;
 
-    // Create the full name
+    // Create full name
     let fullName = firstName;
 
-    // Only add middle initial if the user entered one
+    // Add middle initial if entered
     if (middleName !== "") {
         fullName += " " + middleName + ".";
     }
@@ -30,10 +30,18 @@ form.addEventListener("submit", function(event) {
 
     // Create 125 lines
     for (let i = 1; i <= 125; i++) {
+        let message = i;
+
+        if (i % 3 === 0 && i % 5 === 0) {
+            message = "Chicken Fries";
+        } else if (i % 3 === 0) {
+            message = "Chicken";
+        } else if (i % 5 === 0) {
+            message = "Fries";
+        }
+
         const paragraph = document.createElement("p");
-
-        paragraph.textContent = i + ") Mangoose Kitchen";
-
+        paragraph.textContent = i + ") " + message;
         output.appendChild(paragraph);
     }
 });
