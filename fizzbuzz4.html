@@ -1,1 +1,63 @@
+<main>
+    <h2>FizzBuzz 4</h2>
 
+    <section class="fizzbuzz-card">
+
+        <h3>Welcome to Mongoose Restaurant</h3>
+
+        <p>
+            Enter your name and customize the numbers and words
+            used to generate your FizzBuzz results.
+        </p>
+
+        <form id="name-form">
+
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required>
+
+            <label for="middle-name">Middle Name:</label>
+            <input type="text" id="middle-name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required>
+
+            <h3>Customize Your FizzBuzz</h3>
+
+            <label for="divisor1">First Divisor:</label>
+            <input type="number" id="divisor1" value="3" required>
+
+            <label for="word1">Word for First Divisor:</label>
+            <input type="text" id="word1" value="Exploration" required>
+
+            <label for="divisor2">Second Divisor:</label>
+            <input type="number" id="divisor2" value="5" required>
+
+            <label for="word2">Word for Second Divisor:</label>
+            <input type="text" id="word2" value="Level-Up" required>
+
+            <label for="divisor3">Third Divisor:</label>
+            <input type="number" id="divisor3" value="7" required>
+
+            <label for="word3">Word for Third Divisor:</label>
+            <input type="text" id="word3" value="BANG!" required>
+
+            <label for="default-word">
+                Word for numbers with no match:
+            </label>
+            <input type="text" id="default-word" value="">
+
+            <label for="total">How Many Numbers?</label>
+            <input type="number" id="total" value="125" required>
+
+            <button type="submit">Generate Results</button>
+
+        </form>
+
+        <h3 id="greeting"></h3>
+
+        <div id="fizzbuzz-output"></div>
+
+    </section>
+</main>
+
+<script src="fizzbuzz4.js"></script>
