@@ -242,7 +242,7 @@ footer {
     transform: translateY(-50%);
 }
 
-header h1{
+header h1 + nav{
     margin: 0;
     line-height: 100px;
     color: white !important;
