@@ -241,14 +241,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
 }
-header {
-    background-color: #1F3A5F !important;
-    color: white !important;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    min-height: 100px;
-}
+
 header h1{
     margin: 0;
     line-height: 100px;
