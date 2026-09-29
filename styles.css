@@ -11,6 +11,8 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    position: relative;
+    min-height: 80px;
 }
 
 /* Navigation */
@@ -232,9 +234,6 @@ footer {
     padding: 6px 10px;
     margin: 3px 0;
 }
-header {
-    position: relative;
-}
 
 .logo-link {
     position: absolute;
@@ -242,10 +241,14 @@ header {
     top: 50%;
     transform: translateY(-50%);
 }
-
+header h1{
+    margin: 0;
+    line-height: 80px;
+    
+}
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     object-fit: contain;
 }
 
