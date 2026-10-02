@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Introduction Form | Gedeon Ndjibu</title>
+
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Gedeon Ndjibu | WEB115</h1>
+    </header>
+
+    <main>
+
+        <h2>Introduction Form</h2>
+
+        <form id="introForm">
+
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label for="firstname">First Name:</label>
+                <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    value="Gedeon"
+                    required
+                >
+
+                <label for="lastname">Last Name:</label>
+                <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    value="Ndjibu"
+                    required
+                >
+
+                <label for="mascot">Mascot:</label>
+                <input
+                    type="text"
+                    id="mascot"
+                    name="mascot"
+                    value="Mongoose"
+                    required
+                >
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Background Information</legend>
+
+                <label for="personal">Personal Background:</label>
+                <textarea
+                    id="personal"
+                    name="personal"
+                    required>Your personal background goes here.</textarea>
+
+                <label for="professional">Professional Background:</label>
+                <textarea
+                    id="professional"
+                    name="professional"
+                    required>Your professional background goes here.</textarea>
+
+                <label for="academic">Academic Background:</label>
+                <textarea
+                    id="academic"
+                    name="academic"
+                    required>Your academic background goes here.</textarea>
+
+                <label for="subjectBackground">
+                    Background in this Subject:
+                </label>
+
+                <textarea
+                    id="subjectBackground"
+                    name="subjectBackground"
+                    required>Your WEB115/programming background goes here.</textarea>
+
+                <label for="computer">
+                    Primary Computer Platform:
+                </label>
+
+                <input
+                    type="text"
+                    id="computer"
+                    name="computer"
+                    value="Windows"
+                    required
+                >
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Courses</legend>
+
+                <div id="courseFields">
+
+                    <div class="course">
+                        <label for="course1">Course 1:</label>
+
+                        <input
+                            type="text"
+                            id="course1"
+                            name="courses"
+                            value="WEB115 - Web Markup and Scripting"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+                <button type="button" id="addCourse">
+                    Add Course
+                </button>
+
+                <button type="button" id="removeCourse">
+                    Remove Course
+                </button>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Additional Information</legend>
+
+                <label for="funny">
+                    Funny/Interesting Item:
+                </label>
+
+                <textarea
+                    id="funny"
+                    name="funny"
+                    required>Something interesting about me.</textarea>
+
+                <label for="share">
+                    Something I'd Like to Share:
+                </label>
+
+                <textarea
+                    id="share"
+                    name="share"
+                    required>Something I'd like people to know.</textarea>
+
+            </fieldset>
+
+
+            <button type="submit">
+                Create Introduction
+            </button>
+
+        </form>
+
+
+        <section id="output" hidden>
+        </section>
+
+    </main>
+
+    <script src="scripts/introduction-form.js"></script>
+
+</body>
+</html>
