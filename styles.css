@@ -257,3 +257,12 @@ header h1 + nav{
     width: 200px;
     height: auto;
 }
+.brand-logo{
+    width: 200px;
+    height: auto;
+}
+.favicon-preview{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
