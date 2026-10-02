@@ -117,6 +117,28 @@
                 font-size: 14px;
             }
         }
+        
+.validation {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+}
+
+.validation a {
+    color: #b51f24;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.validation a:hover {
+    text-decoration: underline;
+}
+
     </style>
 </head>
 
@@ -165,6 +187,15 @@
         </section>
 
     </main>
+    <div class="validation">
+    <a href="https://validator.w3.org/check?uri=referer">
+        HTML Validation
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        CSS Validation
+    </a>
+</div>
 
 </body>
 
