@@ -10919,3 +10919,90 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+
+/* ==================================
+   Gedeon Ndjibu - WEB115 Custom Theme
+   ================================== */
+
+/* Main page */
+body {
+    background-color: #f5f5f0;
+    color: #1f2937;
+}
+
+/* Navigation */
+.navbar-custom {
+    background-color: #0b2942;
+}
+
+.navbar-custom .navbar-brand {
+    color: #0080ff;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #ff7a30;
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ff7a30;
+}
+
+/* Main header */
+header.masthead {
+    background: #0b2942;
+}
+
+header.masthead .masthead-heading {
+    color: #0080ff;
+}
+
+header.masthead .masthead-subheading {
+    color: #ffffff;
+}
+
+/* Main button */
+.btn-primary {
+    background-color: #ff7a30;
+    border-color: #ff7a30;
+}
+
+.btn-primary:hover {
+    background-color: #0080ff;
+    border-color: #0080ff;
+}
+
+/* Content sections */
+section {
+    background-color: #f5f5f0;
+    color: #1f2937;
+}
+
+/* Section headings */
+section h1,
+section h2,
+section h3 {
+    color: #c75b20;
+}
+
+/* Links */
+section a {
+    color: #0074e8;
+}
+
+section a:hover {
+    color: #ff7a30;
+}
+
+/* Footer */
+footer.bg-black {
+    background-color: #0b2942 !important;
+}
+
+footer {
+    color: #ffffff;
+}
