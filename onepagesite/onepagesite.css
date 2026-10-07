@@ -11006,3 +11006,102 @@ footer.bg-black {
 footer {
     color: #ffffff;
 }
+/* ================================
+   Kind Giraffe Custom Theme
+   ================================ */
+
+body {
+    background-color: #f5f5f0;
+    color: #1f2937;
+}
+
+/* Navigation */
+.navbar-custom {
+    background-color: #0b2942 !important;
+}
+
+.navbar-custom .navbar-brand {
+    color: #0080ff !important;
+    font-weight: 700;
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ff7a30 !important;
+}
+
+/* Hero */
+header.masthead {
+    background: #0b2942 !important;
+}
+
+header.masthead .masthead-heading {
+    color: #0080ff;
+}
+
+header.masthead .masthead-subheading {
+    color: white;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #ff7a30 !important;
+    border-color: #ff7a30 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0080ff !important;
+    border-color: #0080ff !important;
+}
+
+/* Main sections */
+section {
+    background-color: #f5f5f0;
+}
+
+section:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+/* Headings */
+section h2,
+section h3 {
+    color: #c75b20;
+}
+
+/* Links */
+section a {
+    color: #0074e8;
+    font-weight: 600;
+}
+
+section a:hover {
+    color: #ff7a30;
+}
+
+/* Images */
+section img {
+    border: 6px solid #0b2942;
+}
+
+/* Decorative circles */
+.bg-circle {
+    background: #0080ff !important;
+    opacity: 0.15;
+}
+
+/* Footer */
+footer.bg-black {
+    background-color: #0b2942 !important;
+}
+
+footer a {
+    color: #ff7a30;
+}
+
+footer a:hover {
+    color: #0080ff;
+}
